@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 400" role="img" aria-labelledby="title desc">
+  <title id="title">Kumar Nishant — AI in motion</title>
+  <desc id="desc">Four illustrated examples. A math agent calls a tool and receives 42. A graph lights up selected evidence. Search ranks a source passage. A document flows through chunking into an index.</desc>
+  <style>
+    text { font-family: system-ui,sans-serif; fill: #f6f0df }
+    .head { font-size: 22px; font-weight: 650 }
+    .mono { font: 17px ui-monospace,monospace; fill: #c6d4d6 }
+    .rail { fill: none; stroke: #486067; stroke-width: 2 }
+    .call { animation: call 5s ease-in-out infinite }
+    .node { animation: select 5s ease-in-out infinite }
+    .match { animation: match 5s ease-in-out infinite }
+    .chunk { animation: index 5s ease-in-out infinite }
+    @keyframes call { 0%,10%,95%,100% { transform: translateX(0) } 44%,57% { transform: translateX(228px) } }
+    @keyframes select { 0%,95%,100% { opacity: .25 } 35%,70% { opacity: 1 } }
+    @keyframes match { 0%,15%,100% { transform: translateY(0) } 40%,50% { transform: translateY(14px) } 65%,90% { transform: translateY(28px) } }
+    @keyframes index { 0%,10% { transform: translateX(0); opacity: 0 } 22% { opacity: 1 } 78% { opacity: 1 } 90%,100% { transform: translateX(192px); opacity: 0 } }
+    @media (prefers-reduced-motion: reduce) { .call,.node,.match,.chunk { animation: none } }
+  </style>
+  <rect width="840" height="400" rx="18" fill="#101f25"/>
+  <text x="28" y="55" style="font: 43px Georgia,serif">Kumar Nishant</text>
+  <text x="810" y="52" text-anchor="end" class="mono">AI IN MOTION</text>
+  <path class="rail" d="M28 78H812 M420 94V374 M28 235H812"/>
+  <g transform="translate(28 112)">
+    <text class="head">Agentic AI</text>
+    <text class="mono" y="38">6 × 7</text><text class="mono" x="226" y="38">math tool</text>
+    <path class="rail" d="M14 57H242"/><circle class="call" cx="14" cy="57" r="7" fill="#8ef2ca"/>
+    <text class="mono" y="95">Tool result → 42</text>
+  </g>
+  <g transform="translate(447 112)">
+    <text class="head">Research</text>
+    <path class="rail" d="M12 60 82 28 164 62 240 29 326 62 240 80 164 62 82 78 12 60"/>
+    <path class="node" d="m12 60 70-32 82 34 76-33" fill="none" stroke="#f0b97c" stroke-width="4"/>
+    <g fill="#f0b97c"><circle cx="12" cy="60" r="6"/><circle class="node" cx="82" cy="28" r="7"/><circle class="node" style="animation-delay:.35s" cx="164" cy="62" r="7"/><circle class="node" style="animation-delay:.7s" cx="240" cy="29" r="7"/></g>
+    <text class="mono" y="106">Select evidence within a budget</text>
+  </g>
+  <g transform="translate(28 270)">
+    <text class="head">RAG</text>
+    <text class="mono" y="55">Question</text>
+    <path class="rail" d="M92 50H144m-6-5 6 5-6 5 M160 36H242 M160 50H282 M160 64H267"/>
+    <rect class="match" x="154" y="30" width="141" height="12" rx="4" fill="#8dc4fd" fill-opacity=".22" stroke="#8dc4fd"/>
+    <text class="mono" y="98">Find a passage → cite its source</text>
+  </g>
+  <g transform="translate(447 270)">
+    <text class="head">AI engineering</text>
+    <path class="rail" d="M26 50H272"/>
+    <g stroke="#c0b0fd" stroke-width="2" fill="#172832">
+      <rect x="10" y="32" width="27" height="35" rx="3"/><path d="M16 41h15m-15 7h15m-15 7h10"/>
+      <rect x="121" y="34" width="32" height="8" rx="2"/><rect x="121" y="46" width="32" height="8" rx="2"/><rect x="121" y="58" width="32" height="8" rx="2"/>
+      <path d="M255 36v26c0 9 42 9 42 0V36"/><ellipse cx="276" cy="36" rx="21" ry="7"/>
+    </g>
+    <rect class="chunk" x="46" y="46" width="11" height="8" rx="2" fill="#d8c9ff"/>
+    <text class="mono" y="98">Document → chunks → index</text>
+  </g>
+</svg>

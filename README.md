@@ -1,12 +1,12 @@
-<p align="center"><img src="./assets/retrieval.svg" alt="Kumar Nishant · Agriculture, research, RAG and AI engineering. Field rows meet an animated network." width="100%"></p>
+<p align="center"><img src="./assets/workflows.svg" alt="Kumar Nishant. Four animated examples show tool calling, graph-based evidence selection, passage retrieval and document indexing." width="100%"></p>
 
 # Hi, I’m Kumar 👋
 
-I work in agriculture and build open-source AI tools in Python. I like turning a research question into a small experiment someone else can run.
+I build agents that use tools and retrieval systems that can show where an answer came from. My open-source work spans research implementations, local models and Python packages.
 
-### 🌱 Agriculture
+### 🛠️ Agentic AI
 
-Agriculture is the practical side of my work. One design question interests me in particular. When an AI tool makes a recommendation in the field, how can the person using it check the evidence?
+My math agent gives a local Ollama model a set of calculation tools. For a question like “What’s 6 × 7?”, the agent can call a tool and use the returned value in its reply. [Math agent implementation](https://github.com/aion7891/agent-core-lab/blob/HEAD/src/agents/math_agent.py)
 
 ### 🔬 Research
 
@@ -18,4 +18,4 @@ I explore different ways to find the passage that answers a question. In one pro
 
 ### ⚙️ AI engineering
 
-I build agents from their component parts. My Python math agent pairs a local Ollama model with calculation tools. I also work on documentation for Kioko, which gives agents long-term memory. [Agent Core Lab](https://github.com/aion7891/agent-core-lab) · [Kioko docs](https://github.com/aion7891/kioko-docs)
+I package retrieval pipelines as Python tools. With rag-titan, you can chunk documents, save the index in SQLite and query it later with a local model. I also document long-term memory for agents in Kioko. [rag-titan docs](https://aion7891.github.io/rag-titan/) · [Kioko docs](https://github.com/aion7891/kioko-docs)
