@@ -1,121 +1,57 @@
-&lt;div align=&quot;center&quot;&gt;
-  &lt;img src=&quot;https://capsule-render.vercel.app/api?type=waving&amp;color=0:0F172A,50:1E3A8A,100:0EA5E9&amp;height=210&amp;section=header&amp;text=Kumar%20Nishant&amp;fontSize=56&amp;fontColor=FFFFFF&amp;fontAlignY=38&amp;desc=Senior%20ML%20Engineer%20%7C%20AI%20Agent%20Specialist%20%7C%20AI%20Team%20Lead&amp;descAlignY=60&amp;descSize=18&amp;animation=fadeIn&quot; width=&quot;100%&quot; alt=&quot;Kumar Nishant Header Banner&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-  &lt;a href=&quot;https://github.com/aion7891&quot;&gt;
-    &lt;img src=&quot;https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=19&amp;duration=3000&amp;pause=1000&amp;color=0EA5E9&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=10%2B+Years+Building+Production+AI+%26+Enterprise+ML+Systems;Multi-Agent+Orchestration+%7C+MCP+Protocol+%7C+AWS+Bedrock;Graph+RAG+%7C+Vectorless+RAG+%7C+Long-Term+Agentic+Memory;Leading+Enterprise+AI+Teams+for+Fortune+500+Scale&quot; alt=&quot;Typing SVG&quot; /&gt;
-  &lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-  &lt;a href=&quot;mailto:knish5790@gmail.com&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/Email-knish5790%40gmail.com-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&quot; alt=&quot;Email&quot; /&gt;&lt;/a&gt;
-  &lt;a href=&quot;https://github.com/aion7891&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/GitHub-aion7891-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white&quot; alt=&quot;GitHub&quot; /&gt;&lt;/a&gt;
-  &lt;img src=&quot;https://img.shields.io/badge/Location-Pune%2C%20India-0F172A?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white&quot; alt=&quot;Location&quot; /&gt;
-  &lt;img src=&quot;https://komarev.com/ghpvc/?username=aion7891&amp;label=PROFILE%20VIEWS&amp;color=0ea5e9&amp;style=for-the-badge&quot; alt=&quot;Profile Views&quot; /&gt;
-&lt;/p&gt;
-
----
+<p align="center"><img src="./assets/workflows.svg" width="100%" alt="Kumar Nishant. Animated demonstrations of agentic AI, research, retrieval and AI engineering."></p>
 
 ## 👨‍💻 About Me
 
 ```python
-class SeniorMLEngineer:
-    def __init__(self):
-        self.name = "Kumar Nishant"
-        self.role = "Senior Data Scientist (MLE) & AI Team Lead @ Demandbase"
-        self.experience = "10+ Years in Production AI, ML & Data Systems"
-        self.location = "Pune, India"
-        self.specialties = [
-            "Multi-Agent Orchestration (A2A, LangGraph, LangChain)",
-            "Model Context Protocol (MCP) & Tool Discovery",
-            "Graph-Augmented, Hybrid & Vectorless RAG Systems",
-            "Enterprise LLM Frameworks (AWS Bedrock, Claude, Llama, GPT)",
-            "Long-Term Agentic Memory & Production MLOps",
-        ]
-
-    def current_focus(self):
-        return [
-            "Building open-source RAG & agent memory engines (SpectraFuse, rag-titan, Kioko)",
-            "Scaling multi-agent workflows with 95%+ reliability & 99.5% uptime",
-            "Researching spectral graph retrieval & reasoning-driven vectorless RAG",
-        ]
-
-    def leadership(self):
-        return "Leading 5+ ML engineers delivering enterprise AI for Fortune 500 clients"
+engineer = {
+    "name": "Kumar Nishant",
+    "role": "Senior ML Engineer & AI Agent Specialist",
+    "team": "Rockwell Automation",
+    "home": "Pune, India",
+    "experience": "10+ years in machine learning and data systems",
+    "building": ["tool-using agents", "retrieval pipelines", "long-term memory"],
+    "research": "How do we select the right evidence within a token budget?",
+}
 ```
 
 ---
 
 ## 🛠️ Tech Arsenal
 
-&lt;details open&gt;
-&lt;summary&gt;&lt;strong&gt;🤖 AI / ML &amp; Agentic Systems&lt;/strong&gt;&lt;/summary&gt;
-&lt;br /&gt;
+<details open>
+<summary><b>Agents and language models</b></summary>
 
+![LangGraph](https://img.shields.io/static/v1?label=&message=LangGraph&color=166658&style=flat-square) ![LangChain](https://img.shields.io/static/v1?label=&message=LangChain&color=166658&style=flat-square) ![MCP](https://img.shields.io/static/v1?label=&message=MCP&color=166658&style=flat-square) ![A2A](https://img.shields.io/static/v1?label=&message=A2A&color=166658&style=flat-square) ![Claude](https://img.shields.io/static/v1?label=&message=Claude&color=166658&style=flat-square) ![Llama](https://img.shields.io/static/v1?label=&message=Llama&color=166658&style=flat-square) ![Gemini](https://img.shields.io/static/v1?label=&message=Gemini&color=166658&style=flat-square) ![GPT-4o](https://img.shields.io/static/v1?label=&message=GPT-4o&color=166658&style=flat-square)
 
+</details>
 
+<details open>
+<summary><b>Cloud and MLOps</b></summary>
 
+![AWS Bedrock](https://img.shields.io/static/v1?label=&message=AWS%20Bedrock&color=44558b&style=flat-square) ![SageMaker](https://img.shields.io/static/v1?label=&message=SageMaker&color=44558b&style=flat-square) ![Azure](https://img.shields.io/static/v1?label=&message=Azure&color=44558b&style=flat-square) ![Docker](https://img.shields.io/static/v1?label=&message=Docker&color=44558b&style=flat-square) ![Kubernetes](https://img.shields.io/static/v1?label=&message=Kubernetes&color=44558b&style=flat-square) ![Terraform](https://img.shields.io/static/v1?label=&message=Terraform&color=44558b&style=flat-square) ![MLflow](https://img.shields.io/static/v1?label=&message=MLflow&color=44558b&style=flat-square) ![Airflow](https://img.shields.io/static/v1?label=&message=Airflow&color=44558b&style=flat-square)
 
+</details>
 
+<details>
+<summary><b>Programming and ML</b></summary>
 
+![Python](https://img.shields.io/static/v1?label=&message=Python&color=70487e&style=flat-square) ![SQL](https://img.shields.io/static/v1?label=&message=SQL&color=70487e&style=flat-square) ![FastAPI](https://img.shields.io/static/v1?label=&message=FastAPI&color=70487e&style=flat-square) ![PyTorch](https://img.shields.io/static/v1?label=&message=PyTorch&color=70487e&style=flat-square) ![TensorFlow](https://img.shields.io/static/v1?label=&message=TensorFlow&color=70487e&style=flat-square) ![scikit-learn](https://img.shields.io/static/v1?label=&message=scikit-learn&color=70487e&style=flat-square) ![XGBoost](https://img.shields.io/static/v1?label=&message=XGBoost&color=70487e&style=flat-square) ![LightGBM](https://img.shields.io/static/v1?label=&message=LightGBM&color=70487e&style=flat-square)
 
+</details>
 
+<details>
+<summary><b>Search, data and monitoring</b></summary>
 
-&lt;/details&gt;
+![Qdrant](https://img.shields.io/static/v1?label=&message=Qdrant&color=855632&style=flat-square) ![Elasticsearch](https://img.shields.io/static/v1?label=&message=Elasticsearch&color=855632&style=flat-square) ![BM25](https://img.shields.io/static/v1?label=&message=BM25&color=855632&style=flat-square) ![Spark](https://img.shields.io/static/v1?label=&message=Spark&color=855632&style=flat-square) ![Kafka](https://img.shields.io/static/v1?label=&message=Kafka&color=855632&style=flat-square) ![PostgreSQL](https://img.shields.io/static/v1?label=&message=PostgreSQL&color=855632&style=flat-square) ![Redis](https://img.shields.io/static/v1?label=&message=Redis&color=855632&style=flat-square) ![Prometheus](https://img.shields.io/static/v1?label=&message=Prometheus&color=855632&style=flat-square) ![Grafana](https://img.shields.io/static/v1?label=&message=Grafana&color=855632&style=flat-square)
 
-&lt;details open&gt;
-&lt;summary&gt;&lt;strong&gt;☁️ Cloud, MLOps &amp; Infrastructure&lt;/strong&gt;&lt;/summary&gt;
-&lt;br /&gt;
+</details>
 
+<details>
+<summary><b>Engineering practices</b></summary>
 
+![CI/CD](https://img.shields.io/static/v1?label=&message=CI%2FCD&color=325b76&style=flat-square) ![Git](https://img.shields.io/static/v1?label=&message=Git&color=325b76&style=flat-square) ![Unit testing](https://img.shields.io/static/v1?label=&message=Unit%20testing&color=325b76&style=flat-square) ![Code review](https://img.shields.io/static/v1?label=&message=Code%20review&color=325b76&style=flat-square) ![A/B testing](https://img.shields.io/static/v1?label=&message=A%2FB%20testing&color=325b76&style=flat-square)
 
-
-
-
-
-
-
-&lt;/details&gt;
-
-&lt;details open&gt;
-&lt;summary&gt;&lt;strong&gt;💻 Programming &amp; ML Frameworks&lt;/strong&gt;&lt;/summary&gt;
-&lt;br /&gt;
-
-
-
-
-
-
-
-
-
-&lt;/details&gt;
-
-&lt;details open&gt;
-&lt;summary&gt;&lt;strong&gt;📊 Data, Search &amp; Observability&lt;/strong&gt;&lt;/summary&gt;
-&lt;br /&gt;
-
-
-
-
-
-
-
-
-&lt;/details&gt;
-
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;🧱 Software Engineering Practices&lt;/strong&gt;&lt;/summary&gt;
-&lt;br /&gt;
-
-
-
-
-
-
-
-&lt;/details&gt;
+</details>
 
 ---
 
@@ -124,9 +60,13 @@ class SeniorMLEngineer:
 A showcase of my public repositories with the end-to-end execution flow behind each system.
 
 ### 1. [SpectraFuse](https://github.com/aion7891/SpectraFuse) — Spectral Graph-Augmented Multi-Hop RAG
-   
 
 Independent Python implementation inspired by *SpectRAG* (`arXiv:2610.36991`), combining multi-signal graph construction, normalized Laplacian spectral coordinates, PageRank re-scoring, and token-budgeted context selection for multi-hop RAG (`v0.2.0`).
+
+![spectrafuse workflow](./assets/spectrafuse.svg)
+
+<details>
+<summary>View architecture diagram</summary>
 
 ```mermaid
 flowchart LR
@@ -150,12 +90,18 @@ flowchart LR
     G -.-> H
 ```
 
+</details>
+
 ---
 
 ### 2. [rag-titan](https://github.com/aion7891/rag-titan) — Swiss Army Knife for Local & Cloud RAG
-   
 
 A unified Python RAG library (`v0.11.0`) supporting multiple RAG strategies (`simple`, `adaptive`), 8 chunkers, hybrid RRF/MMR retrieval, and 100% local execution with Ollama or cloud inference with Claude.
+
+![rag-titan workflow](./assets/rag-titan.svg)
+
+<details>
+<summary>View architecture diagram</summary>
 
 ```mermaid
 flowchart LR
@@ -176,12 +122,18 @@ flowchart LR
     E -.-> F
 ```
 
+</details>
+
 ---
 
 ### 3. [vectorless-rag-lite](https://github.com/aion7891/vectorless-rag-lite) — Reasoning-Based Tree RAG (`novector`)
 
-
 Minimal, from-scratch vectorless RAG for documents and videos. Replaces vector embeddings and cosine similarity with a hierarchical semantic summary tree navigated by an LLM reasoning agent.
+
+![vectorless-rag-lite workflow](./assets/vectorless-rag-lite.svg)
+
+<details>
+<summary>View architecture diagram</summary>
 
 ```mermaid
 flowchart LR
@@ -195,12 +147,18 @@ flowchart LR
     G --> H["Cited Answer"]
 ```
 
+</details>
+
 ---
 
 ### 4. [agent-core-lab](https://github.com/aion7891/agent-core-lab) — Modular Core AI Agent & RAG Service
 
-
 A containerized laboratory for building core AI agents and grounded RAG pipelines from first principles using a clean factory architecture.
+
+![agent-core-lab workflow](./assets/agent-core-lab.svg)
+
+<details>
+<summary>View architecture diagram</summary>
 
 ```mermaid
 flowchart LR
@@ -211,12 +169,18 @@ flowchart LR
     E --> F["FastAPI / Uvicorn Service (Docker)"]
 ```
 
+</details>
+
 ---
 
 ### 5. [kioko-docs](https://github.com/aion7891/kioko-docs) — Kioko: Long-Term Memory for AI Agents
 
-
 Published documentation portal for **Kioko**, covering agent memory types, graph memory, MCP integration, pluggable stores, CLI, console, webhooks, and deployment cookbooks.
+
+![kioko workflow](./assets/kioko.svg)
+
+<details>
+<summary>View architecture diagram</summary>
 
 ```mermaid
 flowchart LR
@@ -226,9 +190,14 @@ flowchart LR
     B --> E["Webhooks & Intelligence Console"]
 ```
 
+</details>
+
 ---
 
 ### 6. Labs & In-Progress Builds
+
+![base-core scaling workflow](./assets/base-core.svg)
+
 | Repository | Focus | Current State |
 |---|---|---|
 | [**base-core**](https://github.com/aion7891/base-core) | Hand-built ML utility core (`Rescale.scale_live` min-max scaler on NumPy/Pandas) | Core logic utility |
@@ -238,12 +207,17 @@ flowchart LR
 
 ## 💼 Work History & Enterprise Impact
 
+### Senior ML Engineer & AI Agent Specialist — **Rockwell Automation**
+`03/2026 – Present` · `Pune, India`
+
+I build agents for industrial diagnostics and predictive maintenance. My work combines LangGraph and MCP with technical manuals, sensor data and logs. I also develop hybrid search and recommendation systems for industrial parts.
+
 ### Senior Data Scientist (MLE) & AI Team Lead — **Demandbase**
-`01/2020 – Present` · `Pune, India`
+`01/2020 – 03/2026` · `Pune, India`
 
 * **Agent Platform Development:** Built and productionized enterprise AI agents using **AWS Bedrock** (Claude, Llama) for automated IT product classification and budget prediction; designed multi-agent orchestration managing specialized sub-agents with **95% reliability**; built LangGraph/LangChain memory components improving context retention by **40%**.
 * **LLM Framework & Infrastructure:** Architected large-scale **BERT** classification models achieving **92% F1 score** for IT product identification; built production **MCP (Model Context Protocol)** client systems for server testing and tool discovery; implemented CI/CD MLOps pipelines reducing deployment time from **weeks to hours**; delivered ensemble IT budget regression models (**R² = 0.87**).
-* **Technical Leadership:** Leading an enterprise AI team of **5+ engineers** shipping production agent capabilities for **Fortune 500** companies; mentoring junior ML engineers and setting standards for code review, testing, and documentation.
+* **Technical Leadership:** Led an enterprise AI team of **5+ engineers** shipping production agent capabilities for **Fortune 500** companies; mentoring junior ML engineers and setting standards for code review, testing, and documentation.
 
 ### Data Analyst — **Capita IT (Ventura)**
 `08/2015 – 01/2020` · `Pune, India`
@@ -277,41 +251,30 @@ flowchart LR
 
 ---
 
-## 📈 GitHub Analytics
+## 📈 GitHub activity
 
-&lt;div align=&quot;center&quot;&gt;
-  &lt;img src=&quot;https://github-readme-stats.vercel.app/api?username=aion7891&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0F172A&amp;title_color=38BDF8&amp;icon_color=38BDF8&amp;text_color=E2E8F0&quot; height=&quot;165&quot; alt=&quot;Kumar Nishant GitHub Stats&quot; /&gt;
-  &lt;img src=&quot;https://github-readme-stats.vercel.app/api/top-langs/?username=aion7891&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0F172A&amp;title_color=38BDF8&amp;text_color=E2E8F0&quot; height=&quot;165&quot; alt=&quot;Top Languages&quot; /&gt;
-&lt;/div&gt;
+[![Animated contribution calendar and public repository statistics, snapshot dated 2026-11-21](./assets/contributions.svg)](https://github.com/aion7891?tab=overview)
 
-&lt;br /&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-  &lt;img src=&quot;https://streak-stats.demolab.com?user=aion7891&amp;theme=tokyonight&amp;hide_border=true&amp;background=0F172A&amp;ring=38BDF8&amp;fire=0EA5E9&amp;currStreakLabel=38BDF8&quot; alt=&quot;GitHub Streak Stats&quot; /&gt;
-&lt;/div&gt;
+[Latest contributions](https://github.com/aion7891?tab=overview) · [Explore repositories](https://github.com/aion7891?tab=repositories)
 
 ---
 
 ## 🤝 Let's Connect
 
-&lt;div align=&quot;center&quot;&gt;
-  &lt;a href=&quot;mailto:knish5790@gmail.com&quot;&gt;
-    &lt;img src=&quot;https://img.shields.io/badge/Gmail-knish5790%40gmail.com-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&quot; alt=&quot;Email Kumar Nishant&quot; /&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://github.com/aion7891&quot;&gt;
-    &lt;img src=&quot;https://img.shields.io/badge/GitHub-aion7891-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white&quot; alt=&quot;GitHub aion7891&quot; /&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;https://github.com/aion7891?tab=repositories&quot;&gt;
-    &lt;img src=&quot;https://img.shields.io/badge/Explore-Repositories-0EA5E9?style=for-the-badge&amp;logo=git&amp;logoColor=white&quot; alt=&quot;Explore Repositories&quot; /&gt;
-  &lt;/a&gt;
+<div align="center">
+  <a href="mailto:knish5790@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-knish5790%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Kumar Nishant" />
+  </a>
+  <a href="https://github.com/aion7891">
+    <img src="https://img.shields.io/badge/GitHub-aion7891-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub aion7891" />
+  </a>
+  <a href="https://github.com/aion7891?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore-Repositories-0EA5E9?style=for-the-badge&logo=git&logoColor=white" alt="Explore Repositories" />
+  </a>
 
-  &lt;br /&gt;&lt;br /&gt;
+  <br /><br />
 
   *Architecting production AI agents, graph-augmented retrieval, and long-term agent memory.*
 
   **Thanks for visiting! Star any repo if you find it useful.**
-&lt;/div&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-  &lt;img src=&quot;https://capsule-render.vercel.app/api?type=waving&amp;color=0:0EA5E9,50:1E3A8A,100:0F172A&amp;height=95&amp;section=footer&quot; width=&quot;100%&quot; alt=&quot;Footer Wave&quot; /&gt;
-&lt;/div&gt;
+</div>
