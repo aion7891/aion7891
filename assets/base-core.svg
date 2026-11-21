@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 70" role="img" aria-label="Training values → Find min / max → Scale live input → Return values">
+  <style>
+    text { fill:#eff4f4; font:16px system-ui,sans-serif; text-anchor:middle }
+    .ring { fill:none; stroke-width:2; opacity:.35; animation:active 3.2s ease-in-out infinite }
+    @keyframes active { 0%,30%,100% {opacity:.25} 12% {opacity:1;stroke-width:4} }
+    @media (prefers-reduced-motion:reduce) { .ring {animation:none} }
+  </style>
+  <rect width="720" height="70" rx="10" fill="#13272d"/>
+  <path d="M90 20H630" fill="none" stroke="#527073" stroke-width="2"/>
+  <g transform="translate(90 0)"><circle cy="20" r="5" fill="#cedd8f"/><circle class="ring" cy="20" r="9" stroke="#cedd8f" style="animation-delay:0.0s"/><text y="54">Training values</text></g>
+<g transform="translate(270 0)"><circle cy="20" r="5" fill="#cedd8f"/><circle class="ring" cy="20" r="9" stroke="#cedd8f" style="animation-delay:0.8s"/><text y="54">Find min / max</text></g>
+<g transform="translate(450 0)"><circle cy="20" r="5" fill="#cedd8f"/><circle class="ring" cy="20" r="9" stroke="#cedd8f" style="animation-delay:1.6s"/><text y="54">Scale live input</text></g>
+<g transform="translate(630 0)"><circle cy="20" r="5" fill="#cedd8f"/><circle class="ring" cy="20" r="9" stroke="#cedd8f" style="animation-delay:2.4000000000000004s"/><text y="54">Return values</text></g>
+</svg>
