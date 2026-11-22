@@ -1,5 +1,7 @@
 <p align="center"><img src="./assets/workflows.svg" width="100%" alt="Kumar Nishant. Animated demonstrations of agentic AI, research, retrieval and AI engineering."></p>
 
+<p align="center"><img src="https://komarev.com/ghpvc/?username=aion7891&amp;label=Profile%20Views&amp;color=00f7ff&amp;style=for-the-badge" alt="Profile views for aion7891"></p>
+
 ## 👨‍💻 About Me
 
 ```python
